@@ -1,0 +1,295 @@
+.home-page .filter-bar {
+  position: sticky;
+  width: 230px;
+  top: 60px;
+  margin-right: 0px;
+  box-sizing: border-box;
+  border-right: 1px solid #0000001f;
+}
+
+.home-page .filter-bar .fixed-div {
+  position: sticky;
+  top: 65px;
+}
+
+.filter-list {
+  max-height: 267px;
+  overflow-y: auto;
+}
+
+.filter-list .MuiListItem-dense {
+  padding: 0 10px !important;
+}
+
+.filter-list .MuiListItem-dense {
+  height: 30px !important;
+  color: #333333 !important;
+}
+
+.filter-list .MuiListItemIcon-root {
+  min-width: 35px;
+}
+
+.filter-list .MuiCheckbox-colorSecondary.Mui-checked {
+  color: #cca326 !important;
+}
+
+.filter-title {
+  margin: 0 0 0 8px !important;
+  font-size: 16px !important;
+}
+
+.filter-divider {
+  margin: 15px 5px 20px 5px !important;
+}
+
+.input-range {
+  width: 90%;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+
+.input-range__slider {
+  background: #c19d0d;
+  border: 1px solid #c19d0d;
+}
+
+.input-range__track--active {
+  background: #c19d0d;
+}
+
+.input-range__label-container {
+  font-family: "roboto", sans-serif;
+}
+
+.input-range__label {
+  color: #333333;
+  font-size: 14px;
+}
+
+.filter-radio-container {
+  max-height: 267px;
+  overflow-y: auto;
+}
+
+.filter-radio .MuiFormControlLabel-root {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  height: 30px !important;
+  color: #333333 !important;
+  font-size: 16px !important;
+}
+
+.filter-radio .MuiFormControlLabel-root:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.filter-radio .MuiFormControlLabel-label {
+  font-size: 0.875rem !important;
+  padding-left: 2px;
+}
+
+.filter-radio .MuiRadio-colorSecondary.Mui-checked {
+  color: #cca326 !important;
+}
+
+.close-filters {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 20px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-filters:hover {
+  color: rgb(223, 223, 223);
+}
+
+.show-filter-menu-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .home-page .filter-bar {
+    display: none;
+  }
+
+  .home-page .content .sort-result-div {
+    height: 115px;
+  }
+
+  .show-filter-menu-btn {
+    display: block;
+    width: fit-content;
+    background: #333333;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 25px;
+    font-size: 14px;
+  }
+
+  .show-filter-menu-btn span {
+    font-weight: 300;
+  }
+}
+
+/* filter bar */
+.filter-cus-div {
+  padding: 15px 10px 0 30px;
+}
+
+.filter-cus-heading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+  margin: 0 0 0 0;
+}
+
+.show-hide-int-lable {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.filter-cus-div .interest-on-off-btn .css-1w8q89d {
+  background: #cca326;
+  border-radius: 18px;
+}
+
+.filter-cus-div .interest-on-off-btn {
+  width: 32px;
+  height: 18px;
+}
+
+.filter-cus-div .interest-on-off-btn .css-tu4hyh {
+  left: 15px;
+}
+
+.filter-cus-div .interest-on-off-btn .css-w2bgmm {
+  border-radius: 18px;
+}
+
+.filter-cus-div .interest-on-off-btn .css-170e205 {
+  right: 15px;
+}
+
+.filter-cus-div .age-input {
+  width: 41.25%;
+  background: #f2f2f2;
+  font-size: 15px;
+  line-height: 19px;
+  border-radius: 4px;
+  padding: 7px 10px;
+  border: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  background: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")
+    #f2f2f2 no-repeat calc(100% - 5px) !important;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .filter-cus-div .age-input {
+    width: 42%;
+  }
+}
+
+.filter-cus-div .age-to-lable {
+  color: #333333;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.filter-cus-div .age-input:focus {
+  outline: 0;
+}
+
+.accor-reset {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #927502;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.all-ads-filter-bar .clear-all-filters {
+  position: absolute;
+  top: 27px;
+  right: 10px;
+  font-size: 12px;
+  line-height: 13px;
+  color: #927502;
+  cursor: pointer;
+}
+
+.all-ads-filter-bar-mobile .clear-all-filters {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  font-size: 14px;
+  line-height: 13px;
+  color: #927502;
+  cursor: pointer;
+  margin: 0;
+}
+
+.weight-bold span {
+  font-weight: 500 !important;
+}
+
+.accordion {
+  position: relative;
+  padding: 12px 15px;
+  color: #333333;
+  border-bottom: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-top: 1px solid #0000001f;
+}
+
+.accordion:hover {
+  background-color: #f2f2f2;
+}
+
+.accordion:after {
+  content: "";
+  border: solid rgb(0 0 0) 2px;
+  border-width: 0px 2px 2px 0;
+  display: inline-block;
+  padding: 2.5px;
+  margin-right: 12px;
+  transform: rotate(-45deg);
+  position: relative;
+  top: 3px;
+  left: 0px;
+  transition: 0.3s;
+  float: left;
+}
+
+.active:after {
+  transform: rotate(45deg);
+}
+
+.panel {
+  padding: 0;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-sizing: border-box;
+}
+
+.panel .MuiList-padding {
+  padding-left: 24px;
+}

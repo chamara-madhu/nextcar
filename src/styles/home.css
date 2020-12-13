@@ -1,0 +1,85 @@
+.home-page .content .sort-result-div {
+  /* width: calc(100% - 230px); */
+  position: sticky;
+  top: 65px;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+  background: #fff;
+  padding: 7px;
+}
+
+.home-page .content .sort-result-div .post-results {
+  font-size: 13px;
+  padding-top: 27px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.home-page .content .sort-result-div .post-sort-by {
+  min-width: 100px;
+}
+.home-page .content .sort-result-div .post-sort-by label {
+  font-size: 14px;
+}
+
+.home-page .content .sort-result-div .post-sort-by div {
+  font-size: 14px;
+}
+
+.sort-by-div {
+  display: block;
+  float: right;
+}
+
+.home-page .content {
+  width: calc(100% - 230px);
+  min-height: 40vh;
+  padding: 0 15px;
+}
+
+@media (max-width: 480px) {
+  .home-page .content {
+    padding: 0;
+  }
+
+  .home-page .content .sort-result-div {
+    padding: 7px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-page .content {
+    width: 100%;
+  }
+
+  .home-page .content .sort-result-div {
+    top: 65px;
+    height: 80px;
+  }
+
+  .home-page .content .sort-result-div .post-results {
+    padding-top: 14px;
+  }
+
+  .sort-by-div {
+    margin-top: -14px;
+  }
+}
+
+.pagination-div {
+  float: right;
+  padding: 0 15px 20px 15px;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled):focus {
+  outline: 0 !important;
+}
+
+.MuiPaginationItem-page.Mui-selected {
+  background: #022431 !important;
+  color: #fff;
+}

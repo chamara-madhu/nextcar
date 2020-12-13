@@ -1,0 +1,66 @@
+.login-reg-container {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 10vh;
+  padding: 0 15px;
+}
+
+.login-reg-container .heading {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.required-tag {
+  color: #dc3545;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: #cca326;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+  box-shadow: none;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  background: #cca326;
+  padding: 7px 15px;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+.btn-submit:hover {
+  background: #323d51;
+  color: #fff;
+}
+
+.btn-submit:focus {
+  box-shadow: none;
+}
+
+.forget-password-link {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+}

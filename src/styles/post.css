@@ -1,0 +1,168 @@
+.post {
+  display: inline-block;
+  width: 19%;
+  margin: 0 0.5% 1.5% 0.5%;
+  vertical-align: top;
+  border-radius: 8px;
+  /* background: #f3f3f3; */
+}
+
+.post:hover {
+  background: #f1f1f1;
+}
+
+.post-link {
+  color: #000000 !important;
+}
+
+.post .post-content {
+  padding: 0 10px 5px 10px;
+}
+
+.post .img-div {
+  position: relative;
+  height: 200px;
+  background: #333333;
+}
+
+.post .img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .post .img-div .stock {
+  position: absolute;
+  right: 0;
+  background: rgb(162 4 4);
+  font-size: 14px;
+  padding: 3px 10px;
+  color: #fff;
+} */
+
+.post .postedAt {
+  font-weight: 300;
+  padding-top: 8px;
+  overflow: hidden;
+  font-size: 10px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.post .location {
+  font-weight: 300;
+  overflow: hidden;
+  font-size: 11px;
+  margin-bottom: 15px;
+  color: #927502;
+}
+
+.post .name {
+  font-weight: 500;
+  padding-top: 8px;
+  height: 30px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.post .size {
+  display: flex;
+  font-weight: 300;
+  font-size: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post .size span {
+  flex-grow: 1;
+}
+
+.post .size span:nth-child(2) {
+  text-align: center;
+}
+
+.post .size span:nth-child(2) img {
+  padding-bottom: 5px;
+}
+
+.post .size span:nth-child(3) {
+  text-align: right;
+}
+
+.post .price {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0;
+  padding: 4px 0;
+  color: #927502;
+}
+/* 
+.post .contact {
+  background: #0a9c0a;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 12px;
+  margin-bottom: 0;
+  float: right;
+  padding: 3px 10px;
+  border-radius: 28px;
+} */
+
+@media (max-width: 480px) {
+  .post {
+    width: 92%;
+    margin: 0 15px 15px;
+  }
+
+  .post .img-div {
+    display: inline-block;
+    width: 30%;
+    height: 115px;
+    vertical-align: top;
+  }
+
+  .post .post-content {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+  }
+
+  .post .name {
+    font-size: 14px;
+    height: 25px;
+  }
+
+  .post .location {
+    margin-bottom: 10px;
+  }
+
+  .post .size {
+    margin-bottom: 7px;
+  }
+
+  .post .price {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 991px) {
+  .post {
+    width: 48%;
+    margin: 0 1% 2.5% 1%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1224px) {
+  .post {
+    width: 31.83%;
+    margin: 0 0.75% 2% 0.75%;
+  }
+}
+
+@media (min-width: 1225px) and (max-width: 1500px) {
+  .post {
+    width: 23.5%;
+    margin: 0 0.75% 2% 0.75%;
+  }
+}

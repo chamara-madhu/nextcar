@@ -1,0 +1,137 @@
+.admin-sidebar-col {
+  width: 230px;
+  min-height: calc(100vh - 65px);
+  background: #0f131f;
+}
+
+.admin-sidebar-col .accordion {
+  color: #fff;
+  background: #0f131f;
+  font-weight: 400;
+  border-bottom: 1px solid #797979;
+}
+
+.admin-sidebar-col .accordion:after {
+  border: solid #fff 2px;
+  border-width: 0px 2px 2px 0;
+}
+
+.admin-sidebar-col .panel a {
+  display: block;
+  font-size: 13px;
+  color: #fff;
+  background: #323d51;
+  padding: 10px 15px 10px 35px;
+  border-bottom: 1px solid #ccc;
+  font-weight: 300;
+}
+
+.admin-sidebar-col .panel a:hover {
+  text-decoration: none;
+  color: #000;
+  background: #cca326;
+  font-weight: 400;
+}
+
+.admin-sidebar-col .panel .active-tab {
+  color: #000;
+  background: #cca326;
+  font-weight: 400;
+}
+
+.content-col {
+  width: calc(100% - 230px);
+  background: #dbdbdb;
+}
+
+.inner-breadcrumb {
+  border-radius: 0;
+}
+
+.content-col .breadcrumb {
+  background: #cca326;
+}
+
+.content-col .breadcrumb li {
+  color: #000;
+}
+
+.content-col .ad-form-sec {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.content-col .ad-form-sec .header {
+  background: #323d51;
+  color: rgb(255 255 255);
+  border-radius: 8px 8px 0 0;
+  padding: 10px 15px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.content-col .info-desc {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.content-col .ad-form-sec .content {
+  padding: 10px 15px;
+}
+
+.btn-save {
+  background: #28a745;
+  color: #fff;
+  padding: 5px 25px;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+/* table */
+.common-table thead {
+  background: #323d51;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.common-table thead th {
+  font-weight: 400;
+}
+
+.common-table tbody tr:hover {
+  background: rgb(245, 245, 245);
+}
+
+.common-table tr td i {
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+.common-table tr td .fa-trash-alt {
+  border: 1px solid #dc3545;
+  background: #fff;
+  color: #dc3545;
+}
+
+.common-table tr td .fa-pencil-alt {
+  border: 1px solid #616161;
+  background: #fff;
+  color: #616161;
+}
+.common-table tr td .fa-trash-alt:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+.common-table tr td .fa-pencil-alt:hover {
+  background: #616161;
+  color: #fff;
+}

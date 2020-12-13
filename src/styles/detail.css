@@ -1,0 +1,135 @@
+.cus-con-detail {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.back-link {
+  color: rgb(155, 155, 155);
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.back-link:hover {
+  color: rgb(51, 50, 50);
+  cursor: pointer;
+}
+
+/* slider */
+.image-gallery-right-nav .image-gallery-svg,
+.image-gallery-left-nav .image-gallery-svg {
+  height: 60px !important;
+  width: 30px !important;
+}
+
+.cus-con-detail .img-col {
+  width: 55%;
+}
+
+.cus-con-detail .img-col img {
+  object-fit: cover;
+}
+
+.cus-con-detail .content-col {
+  position: relative;
+  width: 45%;
+  padding-left: 3%;
+  padding-top: 21px;
+}
+
+.cus-con-detail .content-col .location {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.cus-con-detail .content-col .publish-on {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.cus-con-detail .content-col .name {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.cus-con-detail .content-col .desc {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.cus-con-detail .content-col .price {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.cus-con-detail .content-col .phone {
+  width: fit-content;
+  padding: 8px 15px;
+  font-size: 14px;
+  line-height: 16px;
+  background: #00a62e;
+  border-radius: 47px;
+}
+
+.cus-con-detail .content-col .phone a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  .cus-con-detail .img-col {
+    width: 100%;
+  }
+
+  .cus-con-detail .content-col {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .cus-con-detail .content-col .publish-on {
+    top: 4px;
+    right: 4px;
+  }
+}
+
+.cus-con-detail .heading {
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.vehicle-features p {
+  margin-bottom: 3px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.vehicle-features p span {
+  font-weight: 400;
+}
+
+/* similar prod */
+.similar-prod {
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 15px;
+}
+
+.similar-prod .heading {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+}
